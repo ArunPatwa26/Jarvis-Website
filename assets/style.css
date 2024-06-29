@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap'); 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+:root{
+    --primary:#1566D6
+}
+.primary-button{
+    outline: none;
+    border: none;
+    width: 164px;
+    height: 56px;
+    padding: 16px 24px;
+    border-radius: 62px;
+    background-color: var(--primary);
+    color: white;
+}
+/* nav bar section */
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.logo{
+    
+    margin-top: 15px;
+    margin-left: 80px;
+
+}
+.logo a img{
+width: 133px;
+}
+.navbar{
+    display: flex;
+}
+.navbar ul{
+    display: flex;
+    margin-top: 30px;
+    margin-right: 80px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    margin: 0px 18px;
+    color: black;
+}
